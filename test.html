@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Agency</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0a192f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #112240;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #64ffda;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url('https://images.unsplash.com/photo-1556761175-4b46a572b786');
+            background-size: cover;
+            color: white;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+        }
+
+        .hero button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            border: none;
+            background: #64ffda;
+            color: #0a192f;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #f4f4f4;
+            margin: 15px;
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #0a192f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Marketing Agency</h1>
+    <p>Grow Your Business With Us</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <div>
+        <h1>Boost Your Online Presence</h1>
+        <p>We help brands grow faster with smart marketing strategies.</p>
+        <button>Get Started</button>
+    </div>
+</section>
+
+<section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>SEO</h3>
+            <p>Improve your ranking on search engines.</p>
+        </div>
+        <div class="card">
+            <h3>Social Media</h3>
+            <p>Engage your audience on all platforms.</p>
+        </div>
+        <div class="card">
+            <h3>Advertising</h3>
+            <p>Run targeted ads to increase sales.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <h2>About Us</h2>
+    <p>We are a team of marketing experts helping businesses succeed online.</p>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@marketing.com</p>
+    <p>Phone: +216 00 000 000</p>
+</section>
+
+<footer>
+    <p>© 2026 Marketing Agency. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
